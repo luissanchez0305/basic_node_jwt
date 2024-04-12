@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "rootDir": "./",
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "./**/*.ts",
+      "./types.d.ts" // Agrega esta línea
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
